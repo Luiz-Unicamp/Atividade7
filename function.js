@@ -1,7 +1,7 @@
 
-let url = " https://atividade8-progweb.herokuapp.com/adicionar"
-let urlput =" https://atividade8-progweb.herokuapp.com/atualizar"
-let urldelete =" https://atividade8-progweb.herokuapp.com/deletar"
+let url = "https://tt905-2021-progweb.herokuapp.com/adicionar"
+let urlput ="https://tt905-2021-progweb.herokuapp.com/atualizar"
+let urldelete ="https://tt905-2021-progweb.herokuapp.com/deletar"
 
 
 async function callFetchWithPost(tipo, detalhe){
