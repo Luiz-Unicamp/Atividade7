@@ -10,8 +10,8 @@ async function callFetchWithPost(tipo, detalhe){
             'content-type' : 'application/json'
         },
         body :JSON.stringify({
-            'nome' : tipo,
-            'autor': detalhe
+            'tipo' : tipo,
+            'detalhe': detalhe
             
         })
     }
@@ -27,8 +27,8 @@ async function callFetchWithPost(tipo, detalhe){
             }, 
             body :JSON.stringify({
                 banco_dados:{
-                    'nome': tipo2,
-                    'autor': detalhe2
+                    'tipo': tipo2,
+                    'detalhe': detalhe2
                 }
             })
         }
