@@ -27,8 +27,8 @@ async function callFetchWithPost(tipo, detalhe){
             }, 
             body :JSON.stringify({
                 banco_dados:{
-                    'tipo': tipo,
-                    'detalhe': detalhe
+                    'tipo2': tipo,
+                    'detalhe2': detalhe
                 }
             })
         }
