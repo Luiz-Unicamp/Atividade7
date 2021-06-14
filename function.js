@@ -17,7 +17,7 @@ async function callFetchWithPost(tipo, detalhe){
     }
      await fetch (url,options);
 }
-    async function callFetchWithPut(id, tipo,detalhe){
+    async function callFetchWithPut(id, tipo2,detalhe2){
         const options = {
             method : 'PUT',
             mode: 'cors',
@@ -27,8 +27,8 @@ async function callFetchWithPost(tipo, detalhe){
             }, 
             body :JSON.stringify({
                 banco_dados:{
-                    'tipo2': tipo,
-                    'detalhe2': detalhe
+                    'tipo': tipo2,
+                    'detalhe': detalhe2
                 }
             })
         }
