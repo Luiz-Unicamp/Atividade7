@@ -1,8 +1,5 @@
 
-let url = "https://tt905-2021-progweb.herokuapp.com/adicionar"
-let urlput ="https://tt905-2021-progweb.herokuapp.com/atualizar"
-let urldelete ="https://tt905-2021-progweb.herokuapp.com/deletar"
-
+let url = "https://tt905-2021-progweb.herokuapp.com/curiosidades"
 
 async function callFetchWithPost(tipo, detalhe){
     const options ={
